@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Fitness </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <style>
+        /*css reset*/
+        body{
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/BackGround\ Img.jpg');
+        }
+        .left{
+            position: absolute;
+            left: 60px;
+            top: 25px;
+            display: inline-block;
+        }
+        .left img{
+            width:120px;
+        }
+        .left div{
+            line-height: 18px;
+            font-size: 20px;
+            text-align: center;
+        }
+        .midd{
+            display: block;
+            width: 60%;
+            margin: 25px auto;
+        }
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 25px;
+            display: inline-block;
+        }
+        .navbar{
+            display: inline-block;
+        }
+
+        .navbar li{
+            color: white;
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+        }
+
+        .navbar li a:hover, .navbar li a.active{
+            text-decoration: underline;
+            color: gray;
+        }
+        .btn{
+            margin: 0px 10px;
+            background-color: black;
+            color: white;
+            padding: 5px 15px;
+            border: 2px solid gray;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .btn:hover{
+            background-color: gray;
+        }
+
+        .container{
+            margin: 110px;
+            padding:75px;
+            width: 30%;
+            border-radius: 30px;
+        }
+        .form-group input{
+            text-align: center;
+            display:block;
+            width: 400px;
+            padding:1px;
+            border:10px solid black;
+            margin: 11px auto;
+            font-size: 25px;
+            border-radius: 20px;
+        }
+        .form-group h1{
+            text-align: center;
+        }
+        
+        </style>
+        <body>
+            <header class="header">
+                <!--left box for logo-->
+                <div class="left">
+                  <img src="img/Logo.Img 2.jpg" alt="">
+                  <div>24 Hour Fitness</div>
+                </div>
+                <!--midd box for navbar-->
+                <div class="midd">
+                     <ul class="navbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Fitness Calculator</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                 </ul>               
+                </div>
+                <!--right box for buttons-->
+                <div class="right">
+                    <button class="btn">Call Now</button> 
+                    <button class="btn">Email Us</button>
+                </div>
+            </header>
+            <div class="container">
+                <h1>Join The Best Gym Now</h1>
+                <form action="noaction.php"></form>
+                <div class="form group">
+                    <input type="text" name=" "placeholder="Enter Your Name">
+                </div><br>
+                <div class="form group">
+                    <input type="text" name=" "placeholder="Enter Your Age">
+                </div><br>
+                <div class="form group">
+                    <input type="text" name=" "placeholder="Enter Your Gender">
+                </div><br>
+                <div class="form group">
+                    <input type="text" name=" "placeholder="Enter Your Locality">
+                </div><br>
+                <button class="btn">Submit</button>
+
+            </div>
+
+        </body>
+        </html>
